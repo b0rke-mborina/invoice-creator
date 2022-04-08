@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Invoice creator</title>
+		<link rel="stylesheet" href="index.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div class="header">
+			<h1 class="heading">Invoice creator</h1>
+			<p class="subheading">Thanks for choosing GoodCorp, LLC!</p>
+		</div>
+		<div class="content">
+			<div id="services">
+				<!-- <button class="service-btn">Wash car: €10</button>
+				<button class="service-btn">Wash car: €10</button>
+				<button class="service-btn">Wash car: €10</button> -->
+			</div>
+			<div id="items">
+				<div class="items-head">
+					<span class="head-item">TASK</span>
+					<span class="head-item right">TOTAL</span>
+				</div>
+				<div id="empty-msg">There are no items in this invoice...</div>
+				<div id="invoice-items">
+					<!-- <div class="invoice-item">
+						<div>
+							<span class="item-name">Wash car</span>
+							<button class="remove-btn">Remove</button>
+						</div>
+						<div class="right">
+							<span class="item-currency">€</span>
+							<span class="item-price">10</span>
+						</div>
+					</div>
+					<div class="invoice-item">
+						<div>
+							<span class="item-name">Wash car</span>
+							<button class="remove-btn">Remove</button>
+						</div>
+						<div class="right">
+							<span class="item-currency">€</span>
+							<span class="item-price">10</span>
+						</div>
+					</div> -->
+				</div>
+			</div>
+			<hr class="h-line">
+			<div class="summary">
+				<div class="summary-head">
+					<span class="summary-head-item">NOTES</span>
+					<span class="summary-head-item right">TOTAL AMOUNT</span>
+				</div>
+				<div class="summary-total">
+					<span id="notes">We accept</span>
+					<span id="total-price" class="right"></span>
+				</div>
+			</div>
+			<button id="send-btn" class="send-btn">
+				<span class="emoji">&#9993;</span>
+				<span class="send-btn-text">Send invoice</span>
+			</button>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
